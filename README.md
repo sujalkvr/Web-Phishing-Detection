@@ -15,25 +15,6 @@ Performance analysis: View recall, F1, precision, and confusion matrix.
 
 Fully responsive front-end with Bootstrap, custom CSS, and JavaScript.
 
-🗂️ **Project Structure**
-
-Detection of Phishing Websites/    # Root directory containing the entire phishing website detection project
-├── __pycache__/                  # Python's compiled bytecode cache directory
-├── test_data/                    # Directory containing test datasets for model validation
-├── templates/                    # Directory containing HTML templates for the web interface
-├── static/                       # Directory for static web assets
-│   ├── lib/                      # External libraries and dependencies
-│   ├── js/                       # JavaScript files for frontend functionality
-│   ├── img/                      # Image assets used in the web interface
-│   └── css/                      # Stylesheet files for web page styling
-├── model/                        # Directory containing model-related files
-├── requirements.txt              # Python package dependencies list
-├── app.py                        # Main Flask application file
-├── Accuracy.txt                  # File containing model accuracy metrics
-├── upload.csv                    # Dataset file for training/testing
-├── model.pkl                     # Serialized machine learning model
-└── feature.py                    # Python script for feature extraction and processing
-
 ⚙️ Setup Instructions
 Clone the repository:
 git clone https://github.com/<your-username>/phishing-website-detection.git
